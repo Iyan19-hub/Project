@@ -11,10 +11,7 @@ int main () {
     ToggleFullscreen(); // Karna kita mau buat full screen layarnya
 
     // Ini buat ambil PNG nya lalu dibuat jadi variabel
-    Texture2D logo = LoadTexture("Logo.png"); // Gambar akan muncul dalam bentuk 2D
-    Texture2D Awan = LoadTexture("Awan.png");
-    Texture2D Mobil = LoadTexture("Mobil.png");
-    Texture2D Jalan = LoadTexture("Jalan.png");
+    Texture2D logo = LoadTexture("Assets/Logo.png"); // Gambar akan muncul dalam bentuk 2D
     SetTargetFPS(60);     
     
     // Deklarasi untuk variable/wadah jam
